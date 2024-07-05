@@ -1,0 +1,71 @@
+.HomeSection{
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+.HomeOverlay{
+    background-color: rgba(214, 46, 52, 0.615);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+
+}
+
+
+.count{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+
+}
+.count .count-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+.test{
+    height: 250px;
+}
+
+
+
+.socialMediaIcone i{
+    transition: all 0.5s;
+}  
+.socialMediaIcone i:hover{
+    color: white;
+    background-color: #D62E33;
+    border: #D62E33 !important;
+}
+.list-unstyled li a{
+    transition: all 0.5s;
+}
+.list-unstyled li a:hover{
+    color: rgba(214, 46, 51, 0.4) !important;
+}
+
+.leftMenu{
+    padding-top: 60px;
+    transition: 0.5s;
+    left: 0;
+}
+.openIcon{
+    position: relative;
+    left: 10%;
+    cursor: crosshair;
+}
